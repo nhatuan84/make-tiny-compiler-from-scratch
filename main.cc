@@ -9,7 +9,7 @@
 int main() 
 {
     std::ifstream inFile;
-    inFile.open("/home/tuan/my_space/study/c++/toy_compiler/code.tc");
+    inFile.open("../code.tc");
 
     std::stringstream strStream;
     strStream << inFile.rdbuf();
